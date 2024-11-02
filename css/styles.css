@@ -54,6 +54,7 @@ a {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  text-align: center;
   color: #ffffff;
 }
 .hero-button {
@@ -61,8 +62,12 @@ a {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
-
   color: #ffffff;
+}
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #404bbf;
+  cursor: pointer;
 }
 .feature-header {
   font-size: 20px;
@@ -88,6 +93,7 @@ a {
   font-weight: 700;
   line-height: 1.11;
   letter-spacing: 0.02em;
+  text-align: center;
   color: #2e2f42;
 }
 .head-team-item {
@@ -110,6 +116,7 @@ a {
   font-weight: 700;
   line-height: 1.11;
   letter-spacing: 0.02em;
+  text-align: center;
 }
 .portfolio-item {
 }
